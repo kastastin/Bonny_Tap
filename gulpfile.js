@@ -36,7 +36,7 @@ function images() {
 }
 
 function scripts() {
-  return src(["node_modules/jquery/dist/jquery.js", "src/js/main.js"])
+  return src(["node_modules/jquery/dist/jquery.js", "src/js/script.js"])
     .pipe(concat("script.min.js"))
     .pipe(uglify())
     .pipe(dest("src/js"))

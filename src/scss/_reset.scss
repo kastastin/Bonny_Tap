@@ -36,6 +36,11 @@ ul[class] {
   list-style: none;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -48,6 +53,12 @@ select {
   font: inherit;
 }
 
+button {
+  padding: 0;
+  color: #fff;
+}
+
 a {
+  color: #fff;
   text-decoration: none;
 }

@@ -1,0 +1,9 @@
+$border-default: 2px solid #070707;
+$radius-default: 10px;
+
+@mixin card($padding: 25px 15px 20px) {
+  padding: $padding;
+  border: $border-default;
+  border-radius: $radius-default;
+  background-color: #3e3e45;
+}
